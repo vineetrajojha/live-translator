@@ -41,8 +41,9 @@ SpeechRecognition
 
 googletrans
 
+playsound
+
 gTTS
 
-playsound
 --------------------------------------------------
 License: This project is licensed under the MIT License.
