@@ -13,7 +13,7 @@ while True:
         print("speak now")
         audio=r.listen(source)
         try:
-            speech_text = r.recogize_google(audio)
+            speech_text = r.recognize_google(audio)
             print("You said : {}".format(speech_text))
             if(speech_text == "exit"):
                 break
