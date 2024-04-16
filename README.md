@@ -24,6 +24,8 @@ gtts: pip install gtts
 
 playsound: pip install playsound // If encountering errors, downgrade the playsound version using pip install playsound==1.2.0.
 
+If you get build wheel error, use : pip install --upgrade pip setuptools wheel
+
 **Usage :**
 -------------------
 Run the main script live_translator.py.
