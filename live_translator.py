@@ -1,11 +1,11 @@
 import speech_recognition as sr
-from google_trans_new import google_translator
+from googletrans import Translator
 from gtts import gTTS
 from playsound import playsound
 import os
 
 r = sr.Recognizer()
-translator = google_translator()
+translator = Translator()
 
 
 while True:
